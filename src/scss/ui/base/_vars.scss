@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Alislam';
+    src: url('../../build/font/Alislam.woff2') format('woff2'),
+         url('../../build/font/Alislam.woff') format('woff'),
+         url('../../build/font/Alislam.otf') format('opentype');
+}
+
+$bg-color: #f5f5f5;
+$bg-color-header: #ffff;
+$main-font: 'Roboto', sans-serif;
+$important-font: 'Alislam', sans-serif !important;
+
+$blanco: #ffff;
+$negro: #0000;
+$primary-color: #ffdd00;

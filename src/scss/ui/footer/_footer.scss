@@ -1,0 +1,9 @@
+@use '../base/vars' as v;
+
+footer {
+    color: v.$blanco;
+    padding: 1rem 0;
+}
+footer .container {
+    text-align: left;
+}

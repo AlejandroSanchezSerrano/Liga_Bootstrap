@@ -1,0 +1,13 @@
+#carouselExampleCaptions .carousel-inner {
+    max-height: 90vh;
+    overflow: hidden;
+}
+#carouselExampleCaptions .carousel-item img {
+    object-fit: cover;
+    height: 90vh;
+}
+
+#carousel {
+    margin: 0px;
+    padding: 0px;
+}

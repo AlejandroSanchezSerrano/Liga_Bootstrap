@@ -1,0 +1,44 @@
+@use 'vars' as v;
+
+body {
+    font-family: v.$main-font;
+    background-color: v.$bg-color;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    margin-bottom: 1.5rem;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+table th {
+    color: v.$blanco;
+}
+table tr:nth-child(even) {
+    background-color: #e9ecef;
+}
+
+h1,h2,h3,h4 {
+    font-family: v.$important-font;
+}
+
+a {
+    color: v.$bg-color;
+    text-decoration: none;
+}
+a:hover {
+    color: v.$primary-color;
+}
+.sponsor-img {
+    max-height: 100px;
+    margin: 0.5rem;
+}
+
