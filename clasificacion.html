@@ -4,50 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clasificación Detallada - La Liga Nitro</title>
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="build/css/ui/app.min.css">
 </head>
 <body>
     <header class="shadow-sm bg-white text-black">
-        <div class="container d-flex justify-content-between align-items-center py-3">
-            <div class="d-flex align-items-center">
-                <img src="build/img/logo.svg" alt="Logo" class="img-fluid" style="max-height: 80px;">
-                <h1 class="ms-3 text-center m-0">La Liga Nitro</h1>
-            </div>
-            <nav>
-                <ul class="navbar-nav d-flex flex-row align-items-center">
-                    <li class="nav-item mx-3">
-                        <a class="text-dark nav-link fs-5" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="text-dark nav-link fs-5" href="clasificacion.html">Clasificación</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="text-dark nav-link fs-5" href="partidoOnline.html">Partidos</a>
-                    </li>
-
-                    <li class="nav-item dropdown mx-3">
-                        <a class="nav-link dropdown-toggle text-dark fs-5" href="#" id="perfilDropdown" role="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">
-                            Perfil
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="perfilDropdown">
-                            <li><a class="dropdown-item" href="login.html">Iniciar Sesión</a></li>
-                            <li><a class="dropdown-item" href="registro.html">Registrarse</a></li>
-                            <li><a class="dropdown-item" href="perfil.html">Ver Perfil</a></li>
-                        </ul>
-                    </li>
-                </ul>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="build/img/logo.svg" alt="Logo" class="img-fluid" style="max-height: 60px;">
+                    <h1 class="ms-2 fs-4 m-0">La Liga Nitro</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-dark fs-5" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fs-5" href="clasificacion.html">Clasificación</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fs-5" href="partidoOnline.html">Partidos</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark fs-5" href="#" id="perfilDropdown" role="button" data-bs-toggle="dropdown">
+                                Perfil
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="login.html">Iniciar Sesión</a></li>
+                                <li><a class="dropdown-item" href="registro.html">Registrarse</a></li>
+                                <li><a class="dropdown-item" href="perfil.html">Ver Perfil</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
 
-    <section id="clasificacion-detallada">
+    <section id="clasificacion-detallada" class="py-4">
         <div class="container">
-            <h2 class="text-center">Clasificación Detallada</h2>
+            <h2 class="text-center mb-4">Clasificación Detallada</h2>
             <div class="table-responsive">
-                <table class="table table-bordered table-hover">
+                <table class="table table-bordered table-hover text-center">
                     <thead class="table-dark">
                         <tr>
                             <th>Posición</th>
@@ -63,188 +60,50 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Junjos FC</td>
-                            <td>15</td>
-                            <td>10</td>
-                            <td>0</td>
-                            <td>5</td>
-                            <td>30</td>
-                            <td>15</td>
-                            <td>15</td>
-                            <td>30</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Chambers</td>
-                            <td>15</td>
-                            <td>9</td>
-                            <td>1</td>
-                            <td>5</td>
-                            <td>28</td>
-                            <td>18</td>
-                            <td>10</td>
-                            <td>28</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Castañeros Unidos</td>
-                            <td>15</td>
-                            <td>8</td>
-                            <td>1</td>
-                            <td>6</td>
-                            <td>25</td>
-                            <td>20</td>
-                            <td>5</td>
-                            <td>25</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Atletic de Utrera</td>
-                            <td>15</td>
-                            <td>7</td>
-                            <td>1</td>
-                            <td>7</td>
-                            <td>22</td>
-                            <td>18</td>
-                            <td>4</td>
-                            <td>22</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Real Utrera</td>
-                            <td>15</td>
-                            <td>6</td>
-                            <td>2</td>
-                            <td>7</td>
-                            <td>20</td>
-                            <td>22</td>
-                            <td>- 2</td>
-                            <td>20</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Tractoneros</td>
-                            <td>15</td>
-                            <td>5</td>
-                            <td>3</td>
-                            <td>7</td>
-                            <td>18</td>
-                            <td>22</td>
-                            <td>-4</td>
-                            <td>18</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Soldadores</td>
-                            <td>15</td>
-                            <td>4</td>
-                            <td>3</td>
-                            <td>8</td>
-                            <td>15</td>
-                            <td>20</td>
-                            <td>-5</td>
-                            <td>15</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>Real Ayeso Balompie</td>
-                            <td>15</td>
-                            <td>3</td>
-                            <td>3</td>
-                            <td>9</td>
-                            <td>12</td>
-                            <td>25</td>
-                            <td>-13</td>
-                            <td>12</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>El Tinte</td>
-                            <td>15</td>
-                            <td>3</td>
-                            <td>1</td>
-                            <td>11</td>
-                            <td>10</td>
-                            <td>30</td>
-                            <td>-20</td>
-                            <td>10</td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td>Pepineros FC</td>
-                            <td>15</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>11</td>
-                            <td>8</td>
-                            <td>28</td>
-                            <td>-20</td>
-                            <td>8</td>
-                        </tr>
+                        <tr><td>1</td><td>Junjos FC</td><td>15</td><td>10</td><td>0</td><td>5</td><td>30</td><td>15</td><td>15</td><td>30</td></tr>
+                        <tr><td>2</td><td>Chambers</td><td>15</td><td>9</td><td>1</td><td>5</td><td>28</td><td>18</td><td>10</td><td>28</td></tr>
+                        <tr><td>3</td><td>Castañeros Unidos</td><td>15</td><td>8</td><td>1</td><td>6</td><td>25</td><td>20</td><td>5</td><td>25</td></tr>
+                        <tr><td>4</td><td>Atletic de Utrera</td><td>15</td><td>7</td><td>1</td><td>7</td><td>22</td><td>18</td><td>4</td><td>22</td></tr>
+                        <tr><td>5</td><td>Real Utrera</td><td>15</td><td>6</td><td>2</td><td>7</td><td>20</td><td>22</td><td>-2</td><td>20</td></tr>
+                        <tr><td>6</td><td>Tractoneros</td><td>15</td><td>5</td><td>3</td><td>7</td><td>18</td><td>22</td><td>-4</td><td>18</td></tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </section>
 
-    <footer class="mt-4 py-5 b-white text-dark">
+    <footer class="mt-4 py-4 bg-light text-dark">
         <div class="container">
             <div class="row">
-                <!-- Seccion de informacion de contacto -->
-                <div class="col-md-4">
+                <div class="col-md-4 text-center text-md-start">
                     <h4 class="fw-bold">Contacto</h4>
-                    <p><strong>Direccion:</strong> C/ Paseo de Consolacion nº 1 - 41710 Utrera</p>
+                    <p><strong>Dirección:</strong> C/ Paseo de Consolación nº 1 - 41710 Utrera</p>
                     <p><strong>Teléfono:</strong> +34 671 538 756</p>
                     <p><strong>Email:</strong> administracion@iesruizgijon.com</p>
                 </div>
-    
-                <!-- Seccion de enlaces importantes -->
-                <div class="col-md-4">
+                <div class="col-md-4 text-center">
                     <h4 class="fw-bold">Enlaces</h4>
                     <ul class="list-unstyled">
                         <li><a class="text-dark" href="index.html">Inicio</a></li>
-                        <li><a class="text-dark" href="clasificacion.html">Clasificacion</a></li>
+                        <li><a class="text-dark" href="clasificacion.html">Clasificación</a></li>
                         <li><a class="text-dark" href="partidoOnline.html">Partidos</a></li>
                         <li><a class="text-dark" href="about.html">Acerca de</a></li>
                     </ul>
                 </div>
-    
-                <!-- Seccion de redes sociales -->
-                <div class="col-md-4">
+                <div class="col-md-4 text-center text-md-end">
                     <h4 class="fw-bold">Síguenos</h4>
-                    <ul class="list-unstyled d-flex mt-3">
-                        <li class="me-3">
-                            <a class="text-dark" href="https://facebook.com" target="_blank">
-                                <i class="bi bi-facebook fa-2x"> Facebook</i>
-                            </a>
-                        </li>
-                        <li class="me-3">
-                            <a class="text-dark" href="https://twitter.com" target="_blank">
-                                <i class="bi bi-twitter fa-2x"> Twitter</i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-dark" href="https://instagram.com" target="_blank">
-                                <i class="bi bi-instagram fa-2x"> Instagram</i>
-                            </a>
-                        </li>
+                    <ul class="list-unstyled d-flex justify-content-center justify-content-md-end mt-3">
+                        <li class="me-3"><a class="text-dark" href="https://facebook.com"><i class="bi bi-facebook fa-2x"></i></a></li>
+                        <li class="me-3"><a class="text-dark" href="https://twitter.com"><i class="bi bi-twitter fa-2x"></i></a></li>
+                        <li><a class="text-dark" href="https://instagram.com"><i class="bi bi-instagram fa-2x"></i></a></li>
                     </ul>
                 </div>
             </div>
-    
-            <!-- Línea divisoria -->
-            <hr class="my-4" style="border-color: rgba(255, 255, 255, 0.3);">
-    
-            <!-- Copyright -->
-            <div>
-                <p>&copy; 2025 La Liga Nitro - Todos los derechos reservados</p>
-            </div>
+            <hr class="my-3">
+            <p class="text-center">&copy; 2025 La Liga Nitro - Todos los derechos reservados</p>
         </div>
     </footer>
-    
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
