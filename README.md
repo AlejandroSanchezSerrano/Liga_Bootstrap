@@ -88,6 +88,7 @@ Proyecto final de Bootstrap y Sass, realizado por Alejandro Sanchez Serrano y Da
 ## Otros
 
 ### Imágenes
+Usando enlaces de Google o subidas a Cloudinary (el logo esta de forma local)
 - **Logo**: `max-height: 60px`
 - **Imágenes del Carrusel**: Clase `d-block w-100` (display: block, width: 100%)
 - **Imágenes de Patrocinadores**: Clase `sponsor-img`
